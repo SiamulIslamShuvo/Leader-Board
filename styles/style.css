@@ -117,3 +117,38 @@ span{
     border-radius:14.6913px ;
     font-size: 14.6913px;
 }
+
+/* ============== media Queries ========== */
+/* mobile devices  */
+
+@media only screen and (max-width:688px){
+    .container{
+        width: 100%;
+    }
+    .players, .blogs, .courses{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .section-title{
+        text-align: center;
+    }
+    .player, .blog{
+        flex-direction: column;
+    }
+}
+
+/* tablet decices  */
+
+@media only screen and (min-width:688px) and (max-width: 992px){
+    .container{
+        width: 100%;
+    }
+    .section-title{
+        text-align: center;
+    }
+    .players, .blogs, .courses{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .player{
+        justify-content: center;
+    }
+}
