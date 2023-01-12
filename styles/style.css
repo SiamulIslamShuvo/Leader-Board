@@ -10,6 +10,11 @@ main{
     display: flex;
     justify-content: center;
 }
+hr{
+    border: 1px solid #D1D1D1;
+    margin: ;
+
+}
 .container{
     background-color: #FFFFFF;
     width: 870px;
@@ -17,10 +22,12 @@ main{
 }
 
 /* top player style */
+.top-players{
+    margin-bottom: 30px;
+}
 .section-title{
     font-size: 24px;
     color: #562EFF;
-    margin-top: 3px;
 }
 .players{
     display: grid;
@@ -37,4 +44,5 @@ main{
 }
 .Player-name{
     margin-left: 16px;
+    font-size: 18px;
 }
